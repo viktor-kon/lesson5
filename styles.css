@@ -1,0 +1,33 @@
+.container{
+	display: flex;
+	gap: 50px;
+	margin-top: 100px;
+}
+
+.button{
+	padding-top: 20px;
+
+}
+.square{
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+	border-radius: 10%;
+	transition: all .3s linear;
+}
+
+.square_red{
+	background-color: blueviolet;
+}
+
+.square_rotated{
+	transform: rotate(45deg);
+}
+
+.square_radius{
+	border-radius: 30%;
+}
+
+.square_hidden{
+	opacity: 0.5;
+}
